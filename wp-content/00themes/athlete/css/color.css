@@ -1,0 +1,262 @@
+/*-------------------------------------------------------
+COLOR DEFINITION
+--------------------------------------------------------*/
+
+/*---------- Background Color ------------*/
+.heading-button,
+.man-girl, 
+.box-left .icon .fa,
+.box-right .icon .fa,
+.about-bottom-title h4, 
+.news-date, 
+.parallax-background-overlay,
+.month, 
+.our-pricing, 
+.content-our-team.our-team-tabs .our-team-pane,
+.content-our-team.our-team-tabs .our-team-nav > span.our-team-current,
+.background-overlay,
+.classes-content .filter.is-checked,
+.price-table-content,
+.btn-submit,
+.shop .price-table-content a,
+.arrows .fa,
+.actions,
+.img-box-right,
+.gallery .title-gallery,
+.icon-block .fa,
+.tab-history .our-team-nav span.our-team-current:before,
+.categories .filter.is-checked,
+.class-trainer-title,
+.class-info-title,
+.comments-title,
+.btn-submit,
+.img-trainers,
+.profile-title,
+.experience-spoiler-opened .experience-details-title,
+.progress-indicator .bg-red,
+.skill-percent,
+.parallax-col .parallax-row .thumb:after,
+.new-label,.onsale-label,
+.page-product .product-filter,
+.page-product .product-categories,
+.page-product .pages ol li.current a,
+.product-detail .product-collateral > ul li.ui-state-active a,
+.product-cart .cart .cart-collaterals .title,
+.product-check-out .checkout .checkout-row .title,
+.calendar-title,
+.mini-cart .check,
+.calendar-day > div,
+.menu-sidebar,
+.menu-wrap,
+#open-button,
+.quickview-box .quickview-close,
+.headding-content .icon-headding .fa,
+.page .ms-skin-default .ms-bullet-selected,
+.header-option .header-container-3 .shopping-cart i, .header-option .search-form i,
+.product-essential .add-to-box .link-wishlist,
+.ch-info .ch-info-back,
+.shopping-cart:hover  i, .search-form:hover  i ,
+.timetable-top .timetable-cont:hover .table:before,
+.sevices-wapper:hover
+.content-our-team.our-team-tabs .our-team-nav > span:hover,
+.classes-content .filter:hover, 
+.price-tb:hover .plan,
+.shop .price-table-content:hover,
+.product-content  .info-products:hover, 
+.our-trainers .info-products:hover,.product-image-wrapper:hover .info-products,
+#copyright:hover,
+.menu-about ul li a:hover,
+.tab-history .our-team-nav span:hover:before,
+.banner-details .carousel-control span:hover,
+.course:hover,
+.product-content  .info-products:hover, .our-trainers .info-products:hover,
+.load-more:focus,
+.page-product .pages ol li a:hover
+.product-detail .product-collateral > ul li a:hover,
+.tags-blog a:hover,
+.icon-blog .icon a:hover,
+.social_icon a:hover ,
+.product-list-row .actions-box ul li a:hover,
+.content-our-team.our-team-tabs .our-team-nav > span:hover, 
+.content-our-team.our-team-tabs .our-team-nav > span.our-team-current,
+.pages .current a,
+.related-post-list a:before,
+.headding-content .icon-headding,
+.calendar-details .info-products,
+.page-product .pages ol li.current a,
+.page-product .pages ol li a:hover,
+.product-essential .add-to-box .link-wishlist:hover,
+.product-essential .tags-list a:hover,
+.product-essential .social-icon ul a:hover,
+.product-detail .product-collateral > ul li a:hover,
+.product-detail .product-collateral > ul li.ui-state-active a,
+.categories .filter:hover, .categories .filter.is-checked,
+.class-trainer-content .profile:hover,
+.header-option .shopping-cart i, .header-option .search-form i,
+.sevices-wapper:hover,
+.boxing-page .header-container .logo,
+.panel-tools .panel-button,.panel-tools .layout-setting button.active,.reset-button button,
+.widget_categories,.widget_product_categories,.widget_price_filter,.pages li .current,.tagcloud a:hover,
+.woocommerce .product-essential .onsale,
+#page-top .eventon_list_event .desc_trig:hover,
+.page .iw-calendar .calendar_header,
+.page .iw-calendar .eventon_fullcal .eventon_fc_daynames .evo_fc_day,
+.page .eventon_fc_days .evo_fc_day:hover,
+.page .eventon_fc_days .evo_fc_day.has_events:hover,
+.page  .iw-calendar .eventon_fullcal .evo_fc_day.evo_fc_empty:hover,
+.page  .iw-calendar .eventon_fc_days .evo_fc_day.on_focus,
+.page .iw-calendar .eventon_fc_days .evo_fc_day.has_events span i,
+.footer-store,#copyright.copyright-store,
+.my-cart, .my-wishlist,
+.bag-cart .check,.masonry-small, .icon-sport,.btn-store a,.btn-store.shop-now a,.ms-thumb-frame-selected .sub-title,.sub-title:hover,
+.owl-buttons div:hover
+{
+	background: none repeat scroll 0 0 #ec3642;
+}
+/*---------- End Background Color ------------*/
+
+/*---------- Text Color ------------*/
+
+.news-title a,
+.our-pricing-title h2,
+.our-pricing-title h3,
+.footer-title h4,
+.text-box h5,
+.success p span,
+.box-details a,
+.headding-content span,
+.special-price,.price-box ins,
+.breadcrumbs ul,
+.about-details-title,
+.course a,
+.content-cmt .name-cmt,
+.widget_products ul li .info-products .price-box,
+.footer-right .line1 a,
+.product-essential .cat-list a,
+.product-check-out .checkout .checkout-row .cart-total-item .price,
+.product-cart .cart .cart-table .row-item .price-item .cart-price,
+.calendar-date ul .calendar-note .calendar-day,
+.calendar-note .calendar-slide li a, .more,
+.popular-event .news-date,
+.created-by span, .category-name a,
+.created-by span, .category-name a,
+.megamenu ul.nav-menu > li:hover a,
+.megamenu .nav-menu > li ul.child-nav li > a:hover,
+.join a:hover,
+.timetable_details a:hover,
+.timetable-content .octember .icon-wrap:hover,
+.news-title a:hover,.details-news a:hover,
+.success a:hover,
+.history-skill li:hover,
+.share .social-icon a:hover,
+#page-top .widget_price_filter button.button:hover,
+.calendar-title .circle:hover,
+.timetable-content .octember .icon-wrap:hover,
+.popular-event .latest-news-item:hover .news-title a,
+.product-detail .product-collateral .box-collateral ul li:before,
+.product-essential .meta-box .rating-box .rating,
+.breadcrumbs .home a, .breadcrumbs .category-1 a,
+.blog-title a:hover,
+.popular-event-details .news-day, .popular-event-details .news-month,
+.related-post-list a:hover,
+.content-cmt span a,
+.event-listing .news-time .open-time:before,
+.event-listing .news-time .event-text:before,
+.product-cart .cart .cart-collaterals .cart-total-item .price,
+.rating span,
+.info-content a:hover,.woocommerce .star-rating span::before,.woocommerce p.stars a:hover::after,span.amount,
+#evcal_list .eventon_list_event .eventon_details_shading_bot span,
+.iw-calendar .eventon_fc_days .evo_fc_day.has_events,
+.sport-content .read-more a,
+.bag-cart .info-products .price-box,
+.menu-store ul.nav-store > li a:hover,
+.text-sport p:last-child,.watch-video a:hover,.icon-next a,
+.popular-title .next .icon-wrap:hover,.btp-rating-current,.class-detail .class-info .course,
+#header.reveal:not(.alt) .megamenu > ul > li > a:hover,
+.index-white .btp-rating-background span:hover
+{
+	color: #ec3642;
+}
+
+
+/*---------- End Text Color ------------*/
+
+/*---------- Border Color ------------*/
+
+.megamenu ul.nav-menu > li *:before, .megamenu ul.nav-menu > li:after
+{
+	border-bottom-color: #ec3642;
+}
+.megamenu ul.nav-menu > li:before, .megamenu ul.nav-menu > li:after
+ {
+    border-bottom: 2px solid #ec3642;
+}
+.header-container-2.reveal:not(.alt), .header-container-3.reveal:not(.alt)
+ {
+    border-bottom: 2px solid #ec3642 !important;
+}
+.to-bottom:before {
+  border-color: transparent transparent #ec3642;
+}
+.class-info-title:before, .skill-percent:before{
+  border-color: transparent transparent transparent #ec3642;
+}
+.class-info-title:before, .skill-percent:before {
+  border-left-color: #ec3642;
+}
+.box-left .icon .fa:after, .box-right .icon .fa:after {
+  border-top-color: #ec3642;
+}
+.box-left .icon .fa:after, .box-right .icon .fa:after {
+  border-color: #ec3642 transparent transparent;
+}
+.img-box-right-border {
+  border-left-color: #ec3642;
+  border-right: 0 solid #ec3642;
+}
+.plan, .course, .shop .price-table-content a, .course:hover,
+.popular-title .next .icon-wrap:hover, .icon-next,
+.sport-content .read-more a .fa{
+    border: 2px solid #ec3642;
+}
+.classes-content .filter.is-checked, .classes-content .filter:hover {
+  border: 1px solid #ec3642;
+}
+.header-container-2, .header-container-3 {
+  border-bottom: 2px solid #ec3642;
+}
+.archives-title span,.widget-title span {
+  border-bottom: 1px solid #ec3642;
+}
+.blog-main .img-blog img {
+  border: 4px solid #ec3642;
+}
+.page-product .pages ol li.current a,
+.page-product .pages ol li a:hover,
+.panel-tools  .layout-setting button.active,.reset-button button,
+.woocommerce .woocommerce-error, .woocommerce .woocommerce-info, .woocommerce .woocommerce-message
+{
+    border-color: #ec3642;
+}
+.popular-event .latest-news-item:hover, .widget_products ul li:hover{
+    border-left:2px solid #ec3642;
+}
+.rtl .popular-event .latest-news-item:hover, .rtl .widget_products ul li:hover{
+    border-right:2px solid #ec3642;
+    border-left: none;
+}
+.new-label:before,.onsale-label:before {
+  border-color: transparent transparent transparent #ec3642;
+}
+.button-wrap .close-btn {
+  background-color:#ec3642;
+}
+#page-top .button,#page-top .product-cart .cart .cart-collaterals .cart-total .button{
+  background-color:#ec3642;
+}
+.product-cart .cart .cart-collaterals .cart-total .button,
+.cart-collaterals .button, .checkout-row .button, .coupon .button, .btn-checkout{
+  background-color:#ec3642;
+}
+
+/*---------- End Border Color ------------*/

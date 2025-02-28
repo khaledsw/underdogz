@@ -1,0 +1,12 @@
+h1.in-pos{
+     transition: all 0.5s ease 0.9s;
+}
+p.in-pos{
+     transition: all 0.5s ease 0.6s;
+}
+img.in-pos{
+     transition: all 0.5s ease 0.3s;
+}
+.parallax-block-content.in-pos{
+     transition: all 0.5s ease 0s;
+}

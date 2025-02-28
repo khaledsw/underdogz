@@ -1,0 +1,54 @@
+/*
+@package Inwave Athlete
+@version 1.0.0
+@created Apr 1, 2015
+@author Inwavethemes
+@email inwavethemes@gmail.com
+@website http://inwavethemes.com
+@support Ticket https://inwave.ticksy.com/
+@copyright Copyright (c) 2015 Inwavethemes. All rights reserved.
+@license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+*/
+/* 
+    Created on : Apr 1, 2015, 11:25:40 AM
+    Developer     : duongca
+*/
+.fa{
+	font-family:FontAwesome;
+}
+#iw-list-icon.list-icon{
+    position: relative;
+    width: 100%;
+    background: #E4EBF2;
+    overflow-y: scroll;
+    height: 300px;
+    padding: 5px 0;
+}
+.list-icon .icon-item {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    margin-left: 5px;
+    position: relative;
+    width: 30px;
+    cursor: pointer;
+    border: solid 1px #2EA2CC;
+}
+.list-icon .icon-item.selected, .list-icon .icon-item:hover {
+    background: none repeat scroll 0 0 #2EA2CC;
+    color: #1b1b1b;
+    /*cursor: default;*/
+}
+.list-icon .icon-item .icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.control-icon .icon-preview{
+    font-size: 30px;
+    margin-bottom:5px;
+    cursor:pointer;
+}

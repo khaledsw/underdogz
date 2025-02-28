@@ -1,0 +1,1029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Courses Manager\n"
+"POT-Creation-Date: 2015-06-25 16:55+0700\n"
+"PO-Revision-Date: 2015-06-25 16:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/classes/coursesBox.php:37 includes/classes/teacherBox.php:37
+msgid "Image Gallery"
+msgstr ""
+
+#: includes/classes/coursesBox.php:40
+msgid "Advanced"
+msgstr ""
+
+#: includes/classes/coursesBox.php:43 iw_courses.php:87
+msgid "Extra Fields"
+msgstr ""
+
+#: includes/classes/coursesBox.php:148
+msgid "Teacher: "
+msgstr ""
+
+#: includes/classes/coursesBox.php:149
+msgid "Teacher"
+msgstr ""
+
+#: includes/classes/coursesBox.php:161
+msgid "Related Courses: "
+msgstr ""
+
+#: includes/classes/coursesBox.php:169 includes/html.settings.php:98
+msgid "ID"
+msgstr ""
+
+#: includes/classes/coursesBox.php:170 includes/html.extrafield.edit.php:73
+#: includes/html.settings.php:99
+msgid "Title"
+msgstr ""
+
+#: includes/classes/coursesBox.php:189 includes/classes/coursesBox.php:633
+#: includes/classes/teacherBox.php:239 includes/classes/teacherBox.php:252
+#: includes/classes/teacherBox.php:297 includes/classes/teacherBox.php:311
+#: includes/classes/teacherBox.php:356 includes/classes/teacherBox.php:371
+#: includes/classes/teacherBox.php:429 includes/classes/teacherBox.php:446
+msgid "Remove"
+msgstr ""
+
+#: includes/classes/coursesBox.php:198
+msgid "Search Courses"
+msgstr ""
+
+#: includes/classes/coursesBox.php:203
+msgid "Add Courses"
+msgstr ""
+
+#: includes/classes/coursesBox.php:238 includes/classes/teacherBox.php:172
+msgid "Add new images"
+msgstr ""
+
+#: includes/classes/coursesBox.php:297
+msgid "Field Name"
+msgstr ""
+
+#: includes/classes/coursesBox.php:298 includes/classes/teacherBox.php:195
+#: includes/classes/teacherBox.php:280 includes/classes/teacherBox.php:339
+#: includes/html.extrafield.edit.php:132
+msgid "Value"
+msgstr ""
+
+#: includes/classes/coursesBox.php:376 includes/html.extrafield.edit.php:116
+msgid "URL"
+msgstr ""
+
+#: includes/classes/coursesBox.php:377 includes/classes/teacherBox.php:194
+#: includes/classes/teacherBox.php:279 includes/classes/teacherBox.php:338
+#: includes/html.extrafield.edit.php:95 includes/html.extrafield.edit.php:117
+#: includes/html.settings.php:289
+msgid "Text"
+msgstr ""
+
+#: includes/classes/coursesBox.php:408 includes/classes/coursesBox.php:606
+#: includes/functions.admin.php:191 includes/functions.admin.php:240
+#: includes/html.extrafield.edit.php:182
+msgid "Insert"
+msgstr ""
+
+#: includes/classes/coursesBox.php:422 includes/functions.admin.php:206
+#: includes/functions.admin.php:255 includes/html.extrafield.edit.php:196
+msgid "Image URL"
+msgstr ""
+
+#: includes/classes/coursesBox.php:472
+msgid "Create Gallery"
+msgstr ""
+
+#: includes/classes/coursesBox.php:480 includes/classes/coursesBox.php:488
+#: includes/classes/coursesBox.php:567 includes/classes/coursesBox.php:569
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/classes/coursesBox.php:526
+msgid "Save Gallery"
+msgstr ""
+
+#: includes/classes/coursesBox.php:535
+msgid "Saving ..."
+msgstr ""
+
+#: includes/classes/teacherBox.php:40
+msgid "Basic Information"
+msgstr ""
+
+#: includes/classes/teacherBox.php:43 themes/athlete/teacher.php:220
+msgid "Training Skills"
+msgstr ""
+
+#: includes/classes/teacherBox.php:46 themes/athlete/teacher.php:170
+msgid "Training Experience"
+msgstr ""
+
+#: includes/classes/teacherBox.php:49
+msgid "Social Links"
+msgstr ""
+
+#: includes/classes/teacherBox.php:212
+msgid "Teacher Rate"
+msgstr ""
+
+#: includes/classes/teacherBox.php:222 includes/classes/teacherBox.php:225
+msgid "Teacher Email"
+msgstr ""
+
+#: includes/classes/teacherBox.php:233 includes/classes/teacherBox.php:246
+msgid "Info Title"
+msgstr ""
+
+#: includes/classes/teacherBox.php:236 includes/classes/teacherBox.php:249
+msgid "Info Value"
+msgstr ""
+
+#: includes/classes/teacherBox.php:259
+msgid "Add Info"
+msgstr ""
+
+#: includes/classes/teacherBox.php:290 includes/classes/teacherBox.php:304
+msgid "Training Skills Title"
+msgstr ""
+
+#: includes/classes/teacherBox.php:294 includes/classes/teacherBox.php:308
+msgid "Training Skills Value"
+msgstr ""
+
+#: includes/classes/teacherBox.php:318
+msgid "Add Training Skills"
+msgstr ""
+
+#: includes/classes/teacherBox.php:350 includes/classes/teacherBox.php:365
+msgid "Training Experience Title"
+msgstr ""
+
+#: includes/classes/teacherBox.php:353 includes/classes/teacherBox.php:368
+msgid "Training Experience Value"
+msgstr ""
+
+#: includes/classes/teacherBox.php:378
+msgid "Add Training Experience"
+msgstr ""
+
+#: includes/classes/teacherBox.php:394
+msgid "Facebook"
+msgstr ""
+
+#: includes/classes/teacherBox.php:395
+msgid "Youtube"
+msgstr ""
+
+#: includes/classes/teacherBox.php:396
+msgid "Vimeo"
+msgstr ""
+
+#: includes/classes/teacherBox.php:397
+msgid "Flickr"
+msgstr ""
+
+#: includes/classes/teacherBox.php:398
+msgid "Google+"
+msgstr ""
+
+#: includes/classes/teacherBox.php:399
+msgid "Linkedin"
+msgstr ""
+
+#: includes/classes/teacherBox.php:400
+msgid "Tumblr"
+msgstr ""
+
+#: includes/classes/teacherBox.php:401
+msgid "Twitter"
+msgstr ""
+
+#: includes/classes/teacherBox.php:408
+msgid "Social Type"
+msgstr ""
+
+#: includes/classes/teacherBox.php:409 includes/html.extrafield.edit.php:92
+msgid "Link"
+msgstr ""
+
+#: includes/classes/teacherBox.php:426 includes/classes/teacherBox.php:443
+msgid "Social Link Value"
+msgstr ""
+
+#: includes/classes/teacherBox.php:453
+msgid "Add Social"
+msgstr ""
+
+#: includes/functions.admin.php:24
+msgctxt "Post Type General Name"
+msgid "Courses"
+msgstr ""
+
+#: includes/functions.admin.php:25
+msgctxt "Post Type Singular Name"
+msgid "Courses"
+msgstr ""
+
+#: includes/functions.admin.php:26
+msgid "IW Courses"
+msgstr ""
+
+#: includes/functions.admin.php:27 includes/functions.admin.php:79
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/functions.admin.php:28
+msgid "All Courses"
+msgstr ""
+
+#: includes/functions.admin.php:29 includes/functions.admin.php:81
+msgid "View Item"
+msgstr ""
+
+#: includes/functions.admin.php:30 includes/functions.admin.php:82
+msgid "Add new"
+msgstr ""
+
+#: includes/functions.admin.php:31 includes/functions.admin.php:83
+#: includes/html.extrafield.list.php:15
+msgid "Add New"
+msgstr ""
+
+#: includes/functions.admin.php:32 includes/functions.admin.php:84
+msgid "Edit Item"
+msgstr ""
+
+#: includes/functions.admin.php:33 includes/functions.admin.php:85
+msgid "Update Item"
+msgstr ""
+
+#: includes/functions.admin.php:34 includes/functions.admin.php:86
+msgid "Search Item"
+msgstr ""
+
+#: includes/functions.admin.php:35 includes/functions.admin.php:87
+msgid "Not found"
+msgstr ""
+
+#: includes/functions.admin.php:36 includes/functions.admin.php:88
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/functions.admin.php:39
+msgid "iw_courses"
+msgstr ""
+
+#: includes/functions.admin.php:40 includes/functions.admin.php:92
+msgid "Post Type Description"
+msgstr ""
+
+#: includes/functions.admin.php:76
+msgctxt "Post Type General Name"
+msgid "Teachers"
+msgstr ""
+
+#: includes/functions.admin.php:77
+msgctxt "Post Type Singular Name"
+msgid "Teacher"
+msgstr ""
+
+#: includes/functions.admin.php:78 iw_courses.php:89
+msgid "Teachers"
+msgstr ""
+
+#: includes/functions.admin.php:80
+msgid "All Teacher"
+msgstr ""
+
+#: includes/functions.admin.php:91
+msgid "iw_teacher"
+msgstr ""
+
+#: includes/functions.admin.php:132
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/functions.admin.php:134
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/functions.admin.php:137
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/functions.admin.php:138
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/functions.admin.php:139
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/functions.admin.php:140
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/functions.admin.php:141
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: includes/functions.admin.php:142
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: includes/functions.admin.php:143
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: includes/functions.admin.php:209 includes/functions.admin.php:261
+msgid "This image will be the thumbnail shown on the category page."
+msgstr ""
+
+#: includes/functions.admin.php:259
+msgid "Browse"
+msgstr ""
+
+#: includes/functions.admin.php:357
+msgid "Setting had been saved success"
+msgstr ""
+
+#: includes/functions.admin.php:359
+msgid "Error"
+msgstr ""
+
+#: includes/functions.admin.php:363
+msgid "Setting had been updated success"
+msgstr ""
+
+#: includes/functions.admin.php:365
+msgid "Update Error"
+msgstr ""
+
+#: includes/functions.admin.php:374 includes/functions.admin.php:554
+msgid "No data send"
+msgstr ""
+
+#: includes/functions.admin.php:409
+msgid "- Please input name of field<br/>"
+msgstr ""
+
+#: includes/functions.admin.php:415
+msgid "- Please select a field type<br/>"
+msgstr ""
+
+#: includes/functions.admin.php:529
+msgid "Extrafield had been updated"
+msgstr ""
+
+#: includes/functions.admin.php:544
+msgid "Extrafield had been created"
+msgstr ""
+
+#: includes/functions.admin.php:701
+msgid "Delete row(s) success"
+msgstr ""
+
+#: includes/functions.admin.php:703
+msgid "Please select row(s) to delete"
+msgstr ""
+
+#: includes/functions.admin.php:720
+msgid "Delete row success"
+msgstr ""
+
+#: includes/functions.admin.php:722
+msgid "Please select row to delete"
+msgstr ""
+
+#: includes/functions.front.php:52 includes/functions.front.php:102
+msgid "Only registered users can vote. Please login to cast your vote"
+msgstr ""
+
+#: includes/functions.front.php:72 includes/functions.front.php:122
+msgid "You have already voted for this item"
+msgstr ""
+
+#: includes/functions.front.php:76 includes/functions.front.php:127
+msgid "Thanks for voting. You rock!!! ;o"
+msgstr ""
+
+#: includes/functions.front.php:80 includes/functions.front.php:131
+#: includes/utility.php:201
+#, php-format
+msgid "%d votes"
+msgstr ""
+
+#: includes/functions.front.php:161
+msgid "Administrator"
+msgstr ""
+
+#: includes/functions.front.php:167
+msgid "Email recived from \"TAKE THIS COURSE\" form:"
+msgstr ""
+
+#: includes/functions.front.php:170
+msgid "Hi "
+msgstr ""
+
+#: includes/functions.front.php:171
+msgid "This email was sent from \"TAKE THIS COURSE\" form"
+msgstr ""
+
+#: includes/functions.front.php:174
+msgid "Name"
+msgstr ""
+
+#: includes/functions.front.php:178
+msgid "Email"
+msgstr ""
+
+#: includes/functions.front.php:182
+msgid "Mobile"
+msgstr ""
+
+#: includes/functions.front.php:186
+msgid "Message"
+msgstr ""
+
+#: includes/functions.front.php:206
+msgid "Your message was sent, we will contact you soon"
+msgstr ""
+
+#: includes/functions.front.php:208
+msgid "Can't send message, please try again"
+msgstr ""
+
+#: includes/functions.front.php:248
+msgid "Loaded post successfully"
+msgstr ""
+
+#: includes/functions.front.php:256
+msgid "No data was found"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:66
+msgid "Edit Extrafield"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:67
+msgid "Add New Other"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:70
+msgid "Add new Extrafield"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:80
+msgid "Categories"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:87
+msgid "Type"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:91
+msgid "Textarea"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:93 includes/html.settings.php:288
+msgid "Image"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:94
+msgid "Measurement"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:96
+msgid "Dropdown list"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:97
+msgid "Date"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:106 includes/html.extrafield.edit.php:114
+#: includes/html.extrafield.edit.php:130 includes/html.extrafield.edit.php:140
+#: includes/html.extrafield.edit.php:148 includes/html.extrafield.edit.php:158
+#: includes/html.extrafield.edit.php:203
+msgid "Default value"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:108
+msgid "Some Text value here"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:133
+msgid "Unit"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:134
+msgid "Enter unit. Example: $, Kg, m2"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:142
+msgid "Text value"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:150
+msgid "VALUE|TEXT|1"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:151
+msgid ""
+"Multiple options are separated by newline with syntax: Value|Text|Selected(1 "
+"or 0). Example:<br />VALUE_1|TEXT_1|1<br />VALUE_2|TEXT_2|0<br />VALUE_3|"
+"TEXT_3|1"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:211
+msgid "Description"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:218
+msgid "Status"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:221
+msgid "Published"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:222
+msgid "Unpublished"
+msgstr ""
+
+#: includes/html.extrafield.edit.php:234 includes/html.settings.php:389
+msgid "Save"
+msgstr ""
+
+#: includes/html.extrafield.list.php:14
+msgid "Extrafields"
+msgstr ""
+
+#: includes/html.extrafield.list.php:16
+msgid "Delete"
+msgstr ""
+
+#: includes/html.extrafield.list.php:33
+msgid "Assign to Category"
+msgstr ""
+
+#: includes/html.extrafield.list.php:70
+msgid "All"
+msgstr ""
+
+#: includes/html.extrafield.list.php:74 includes/html.settings.php:234
+#: includes/html.settings.php:244 includes/html.settings.php:255
+#: includes/html.settings.php:269 includes/html.settings.php:279
+#: includes/html.settings.php:333
+msgid "Yes"
+msgstr ""
+
+#: includes/html.extrafield.list.php:74 includes/html.settings.php:233
+#: includes/html.settings.php:243 includes/html.settings.php:254
+#: includes/html.settings.php:268 includes/html.settings.php:278
+#: includes/html.settings.php:332
+msgid "No"
+msgstr ""
+
+#: includes/html.settings.php:18
+msgid "Display Options"
+msgstr ""
+
+#: includes/html.settings.php:19
+msgid "Review Options"
+msgstr ""
+
+#: includes/html.settings.php:20
+msgid "Advanced Options"
+msgstr ""
+
+#: includes/html.settings.php:26
+msgid "Theme Options"
+msgstr ""
+
+#: includes/html.settings.php:28
+msgid "Select theme"
+msgstr ""
+
+#: includes/html.settings.php:34
+msgid "Permalink settings"
+msgstr ""
+
+#: includes/html.settings.php:36
+msgid "Courses slug"
+msgstr ""
+
+#: includes/html.settings.php:43
+msgid "Teachers slug"
+msgstr ""
+
+#: includes/html.settings.php:50
+msgid "Categories slug"
+msgstr ""
+
+#: includes/html.settings.php:56
+#, php-format
+msgid ""
+"Please go to Settings -> %s, click save to flush rewrite rules and apply "
+"changes"
+msgstr ""
+
+#: includes/html.settings.php:56
+msgid "Permalink"
+msgstr ""
+
+#: includes/html.settings.php:57
+msgid "Listing options"
+msgstr ""
+
+#: includes/html.settings.php:59
+msgid "Courses listing limit"
+msgstr ""
+
+#: includes/html.settings.php:66
+msgid "Courses order"
+msgstr ""
+
+#: includes/html.settings.php:82
+msgid "Courses order direction"
+msgstr ""
+
+#: includes/html.settings.php:95
+msgid "Category order"
+msgstr ""
+
+#: includes/html.settings.php:105
+msgid "Category order direction"
+msgstr ""
+
+#: includes/html.settings.php:108
+msgid "Asc"
+msgstr ""
+
+#: includes/html.settings.php:109
+msgid "Desc"
+msgstr ""
+
+#: includes/html.settings.php:114 includes/html.settings.php:116
+msgid "Category layout"
+msgstr ""
+
+#: includes/html.settings.php:119
+msgid "Flat list"
+msgstr ""
+
+#: includes/html.settings.php:120
+msgid "Grid list"
+msgstr ""
+
+#: includes/html.settings.php:126
+msgid "Grid column"
+msgstr ""
+
+#: includes/html.settings.php:133
+msgid "Sub-categories"
+msgstr ""
+
+#: includes/html.settings.php:136 includes/html.settings.php:146
+msgid "Show"
+msgstr ""
+
+#: includes/html.settings.php:137 includes/html.settings.php:147
+msgid "Hide"
+msgstr ""
+
+#: includes/html.settings.php:143
+msgid "Courses"
+msgstr ""
+
+#: includes/html.settings.php:152
+msgid "Image options"
+msgstr ""
+
+#: includes/html.settings.php:154
+msgid "Large img processing"
+msgstr ""
+
+#: includes/html.settings.php:157 includes/html.settings.php:168
+msgid "Crop"
+msgstr ""
+
+#: includes/html.settings.php:158 includes/html.settings.php:169
+msgid "Resize"
+msgstr ""
+
+#: includes/html.settings.php:159 includes/html.settings.php:170
+msgid "Resize and Keep ratio"
+msgstr ""
+
+#: includes/html.settings.php:165
+msgid "Thumbnail img processing"
+msgstr ""
+
+#: includes/html.settings.php:176
+msgid "Crop position"
+msgstr ""
+
+#: includes/html.settings.php:179 includes/html.settings.php:360
+msgid "Center"
+msgstr ""
+
+#: includes/html.settings.php:180 includes/html.settings.php:356
+msgid "Top Left"
+msgstr ""
+
+#: includes/html.settings.php:181
+msgid "Top Middle"
+msgstr ""
+
+#: includes/html.settings.php:182 includes/html.settings.php:357
+msgid "Top Right"
+msgstr ""
+
+#: includes/html.settings.php:183 includes/html.settings.php:358
+msgid "Buttom Left"
+msgstr ""
+
+#: includes/html.settings.php:184
+msgid "Buttom Middle"
+msgstr ""
+
+#: includes/html.settings.php:185 includes/html.settings.php:359
+msgid "Buttom Right"
+msgstr ""
+
+#: includes/html.settings.php:191
+msgid "JPEG Quality"
+msgstr ""
+
+#: includes/html.settings.php:198
+msgid "Image width"
+msgstr ""
+
+#: includes/html.settings.php:205
+msgid "Image height"
+msgstr ""
+
+#: includes/html.settings.php:212
+msgid "Thumbnail width"
+msgstr ""
+
+#: includes/html.settings.php:219
+msgid "Thumbnail height"
+msgstr ""
+
+#: includes/html.settings.php:228
+msgid "Voting System"
+msgstr ""
+
+#: includes/html.settings.php:230
+msgid "Enable voting"
+msgstr ""
+
+#: includes/html.settings.php:240
+msgid "Allow guest votes"
+msgstr ""
+
+#: includes/html.settings.php:249
+msgid "Review System"
+msgstr ""
+
+#: includes/html.settings.php:251
+msgid "Enable Review"
+msgstr ""
+
+#: includes/html.settings.php:263
+msgid "Watermark System"
+msgstr ""
+
+#: includes/html.settings.php:265
+msgid "Watemark system"
+msgstr ""
+
+#: includes/html.settings.php:275
+msgid "Watemark on thumbnail"
+msgstr ""
+
+#: includes/html.settings.php:285
+msgid "WM type"
+msgstr ""
+
+#: includes/html.settings.php:296
+msgid "WM Text"
+msgstr ""
+
+#: includes/html.settings.php:303
+msgid "WM Font"
+msgstr ""
+
+#: includes/html.settings.php:306
+msgid "Arial"
+msgstr ""
+
+#: includes/html.settings.php:307
+msgid "Tahoma"
+msgstr ""
+
+#: includes/html.settings.php:308
+msgid "Times"
+msgstr ""
+
+#: includes/html.settings.php:309
+msgid "Verdana"
+msgstr ""
+
+#: includes/html.settings.php:315
+msgid "WM Font color"
+msgstr ""
+
+#: includes/html.settings.php:322
+msgid "WM Font Size"
+msgstr ""
+
+#: includes/html.settings.php:329
+msgid "WM Background"
+msgstr ""
+
+#: includes/html.settings.php:339
+msgid "WM Background color"
+msgstr ""
+
+#: includes/html.settings.php:346
+msgid "WM Image"
+msgstr ""
+
+#: includes/html.settings.php:353
+msgid "WM position"
+msgstr ""
+
+#: includes/html.settings.php:366
+msgid "WM Padding"
+msgstr ""
+
+#: includes/html.settings.php:373
+msgid "WM Opacity"
+msgstr ""
+
+#: includes/html.settings.php:380
+msgid "WM Rotate"
+msgstr ""
+
+#: includes/utility.php:34
+msgid "Select all"
+msgstr ""
+
+#: includes/utility.php:37
+msgid "Select category"
+msgstr ""
+
+#: includes/utility.php:180
+#, php-format
+msgid "%0.1f/5 (%d votes)"
+msgstr ""
+
+#: includes/utility.php:457
+msgid "Enter keyword..."
+msgstr ""
+
+#: iw_courses.php:86 iw_courses.php:90
+msgid "IWC Settings"
+msgstr ""
+
+#: iw_courses.php:88
+msgid "Add Extra Field"
+msgstr ""
+
+#: iw_courses.php:90
+msgid "Settings"
+msgstr ""
+
+#: themes/athlete/course.php:66 themes/athlete/teacher.php:71
+msgid "Previous"
+msgstr ""
+
+#: themes/athlete/course.php:70 themes/athlete/teacher.php:75
+msgid "Next"
+msgstr ""
+
+#: themes/athlete/course.php:82
+msgid "Class details"
+msgstr ""
+
+#: themes/athlete/course.php:100
+msgid "Share This Class"
+msgstr ""
+
+#: themes/athlete/course.php:129
+msgid "Class Trainer"
+msgstr ""
+
+#: themes/athlete/course.php:139
+msgid "Profile"
+msgstr ""
+
+#: themes/athlete/course.php:152
+msgid "Class Information"
+msgstr ""
+
+#: themes/athlete/course.php:240
+msgid "Take This Course"
+msgstr ""
+
+#: themes/athlete/course.php:251
+msgid "TAKE THIS COURSE FORM"
+msgstr ""
+
+#: themes/athlete/course.php:264
+msgid "CHANGE COURSE"
+msgstr ""
+
+#: themes/athlete/course.php:266
+msgid "Your name"
+msgstr ""
+
+#: themes/athlete/course.php:267
+msgid "Your email"
+msgstr ""
+
+#: themes/athlete/course.php:268
+msgid "Your mobile"
+msgstr ""
+
+#: themes/athlete/course.php:272
+msgid "Your message"
+msgstr ""
+
+#: themes/athlete/course.php:274
+msgid "TAKE THIS COURSE"
+msgstr ""
+
+#: themes/athlete/course.php:289
+msgid "Class Related"
+msgstr ""
+
+#: themes/athlete/course.php:311 themes/athlete/list_courses.flat.php:60
+msgid "Details"
+msgstr ""
+
+#: themes/athlete/list_courses.flat.php:15
+msgid "All Class"
+msgstr ""
+
+#: themes/athlete/list_courses.flat.php:80 themes/athlete/list_teachers.php:98
+msgid "Load More"
+msgstr ""
+
+#: themes/athlete/list_courses.flat.php:83
+#: themes/athlete/list_teachers.php:101
+msgid "All loaded"
+msgstr ""
+
+#: themes/athlete/list_courses.php:22 themes/athlete/list_teachers.php:27
+msgid "No course was found"
+msgstr ""
+
+#: themes/athlete/taxonomy.php:41
+msgid "Home"
+msgstr ""
+
+#: themes/athlete/teacher.php:152
+msgid "Share This profile"
+msgstr ""
+
+#: themes/athlete/teacher.php:279
+msgid "Meet Other Trainers"
+msgstr ""
+
+#: themes/athlete/teacher.php:281
+msgid ""
+"Working from home meant we could vary snack and coffee breaks, change our "
+"desks or view, goof off, drink on the job, even spend the day in pajamas"
+msgstr ""
+
+#: themes/single-iw_courses.php:21 themes/single-iw_teacher.php:23
+#: themes/taxonomy-iw_courses_class.php:38
+msgid "No theme was found"
+msgstr ""

@@ -1,0 +1,13 @@
+
+h1.out-pos{
+     transition: all 0.5s ease 0s;
+}
+p.out-pos{
+     transition: all 0.5s ease 0.6s;
+}
+img.out-pos{
+     transition: all 0.5s ease 0.3s;
+}
+.parallax-block-content.out-pos{
+     transition: all 0.5s ease 0.9s;
+}

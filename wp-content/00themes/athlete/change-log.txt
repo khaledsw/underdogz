@@ -1,0 +1,66 @@
+----- v1.0 ------------
+2015/04/14: Initial Release
+----- v1.1 ------------
+2015/04/15: Fixed: Some addons can't edit in Visual Composer editor
+2015/04/15: Removed: Some background images from template css, using visual composer row backgound images instead of them
+2015/04/15: Upgraded & Fixed: more smooth scrolling in mobile devices
+2015/04/15: Added: Under Construction Page
+2015/04/15: Added: Countdown timer & Layers Effect addon for Visual Composer
+
+----- v1.2 ------------
+2015/04/16: Fixed: import demo data problems
+2015/04/16: Fixed: misc bugs
+2015/04/17: Upgraded: Multilevel Drop Down Navigation
+2015/04/18: Upgraded: RTL Language
+2015/04/18: Upgraded: Visual Composer V4.4.3
+----- v1.2.1 ------------
+2015/04/24: Fixed: blank page error with php 5.2
+2015/04/24: Fixed: eventon plugin style
+2015/04/24: Security Update: class-tgm-plugin-activation: escape urls for add_query_arg calls
+2015/04/24: Upgraded: Woocommerce v2.3.8
+2015/04/24: Upgraded: Masterslider v2.12.2
+2015/04/25: Upgraded: Visual Composer V4.4.4
+----- v1.3.0 ------------
+2015/05/06: Fixed: Error when disable EventOn plugin
+2015/05/06: Fixed: Duplicate heading Eventon detail page
+2015/05/13: Upgraded: EventOn V2.3.1, Visual Composer V4.5.1, Master Slider V2.14.2
+2015/05/13: Hardly edit page with Visual Composer Frontend
+2015/05/14: Fixed: issue with bulk installing pre-packaged plugins
+2015/05/14: Fixed: issue with installing ap_background table 
+2015/05/14: Upgraded: Stable light version
+----- v2.0.0 ------------
+2015/05/21: Upgraded: IW Visual Composer Addons plugin
+2015/05/21: Upgraded: Typography Options with Google Fonts
+2015/05/21: Upgraded: Visual Composer V4.5.2, Master Slider V2.15.0
+2015/05/21: Upgraded: Page heading background for each page/post
+2015/05/22: Added troubleshooting: Woocommerce jquery cookie fix 
+2015/05/22: Upgraded: Fully supported language and WPML
+2015/05/22: Upgraded: Retina supported
+
+----- v2.0.1 ------------
+2015/05/25: Fixed: Can't load google font in construction page & turn off page heading
+2015/05/25: Fixed: Iw-Courses sometimes can't load theme
+2015/05/25: Added: Format date setting for countdown timer
+
+----- v2.1.0 ------------
+2015/05/27: Fixed: Missing trainer icon & prolbem with iw course importing data
+2015/05/31: Fixed bug: css3 effect on safari browser,"Proceed to checkout" button bg color
+2015/05/31: Fixed bug: can't select icon in info banner addon
+2015/05/31: Upgraded: EventOn V2.3.2
+2015/05/31: Added: Logo margin option & limit height when user uploads logo image too big
+2015/05/31: Added: Permalink settings for IW Courses
+
+----- v2.2.0 ------------
+2015/06/06: Missed: Documentation & PSD Package in the previous update
+2015/06/06: Improved importing demo tool to prevent the blank error
+2015/06/06: Upgraded: Master Slider v2.16.0
+2015/06/06: Upgraded: Maintenance mode
+
+----- v2.3.0 ------------
+2015/06/25: Fixed: CSS Bug
+2015/06/25: Added: ordering for iw courses, link for "info item" shortcode
+2015/06/25: Upgraded: Visual Composer V4.5.3, Master Slider v2.17.0, EventOn v2.3.5
+2015/06/25: Upgraded: Child-theme v1.1
+
+
+

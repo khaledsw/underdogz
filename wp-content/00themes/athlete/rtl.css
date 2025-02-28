@@ -1,0 +1,427 @@
+/*
+Theme Name: athlete
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.wpb_column,.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+    float:right;
+}
+.content-main-right{
+    float:right;
+}
+.content-main-left,.infor-list{
+    float:left;
+}
+th{
+    text-align: right;
+}
+/**
+HEADER
+ */
+#header .container .row > div,.megamenu ul.nav-menu > li{
+    float:right;
+}
+.mainnav .nav-menu li .child-nav{
+    left:auto;
+    right:0;
+}
+.megamenu .nav-menu > li .child-nav::before{
+    left:auto;
+    right:-1px;
+    border-color: transparent #fff transparent transparent;
+}
+.megamenu .nav-menu > li ul.child-nav li a{
+    text-align: right;
+}
+.mainnav .child-nav .menu-item .child-nav{
+    right:100%;
+    left:auto;
+    margin-right:18px;
+}
+.mainnav .child-nav .menu-item .icon-arrow:before{
+    float:left;
+    content: "\f0d9";
+}
+
+#open-button{
+}
+.index-store .menu-button{
+    left:auto;
+    right:38%!important;
+}
+/* SLIDESHOW */
+.rtl .master-slider {
+    direction:ltr;
+}
+.rtl .ms-vertical-template .ms-nav-prev, .rtl .ms-vertical-template .ms-nav-next {
+    right: 50%;
+}
+/**
+ CONTENT STYLE
+ **/
+.owl-carousel .owl-item{
+    float:right;
+}
+.yoga-content{
+    text-align: left;
+}
+.our-pricing .wpb_column{
+    float:left;
+}
+@media (max-width: 768px) {
+    .boxing-card-content, .yoga-card-content {
+        text-align: right !important;
+        padding-right:20px;
+        padding-left:20px;
+    }
+    .yoga-card-content{
+        padding-right:30px;
+    }
+    .yoga-content{
+        text-align: right;
+    }
+}
+
+/**Product*/
+.page-product .toolbar .amount{
+    float:right;
+}
+.page-product .toolbar .woocommerce-ordering{
+    float:left;
+}
+.widget_products ul li .product-image,.product-popular ul li .product-image{
+    float:right;
+}
+.widget_products ul li .info-products,.product-popular ul li .info-products{
+    padding: 0 85px 0 10px;
+    text-align: right;
+}
+.widget_products ul li .info-products .price-box,.special-price, .price-box ins, .price-box{
+    padding-right:0;
+}
+.mini-cart,.product-list .info-products,.new-product .info-products{
+    text-align: right;
+}
+.special-price, .price-box ins{
+    float:right;
+    padding-right:0;
+    padding-left:20px;
+}
+.mini-cart{
+    right:auto;
+    left:0;
+}
+.mini-cart::before{
+    right:auto;
+    left:58px;
+}
+.widget_products ul li{
+    border-left:0;
+    border-right:2px solid #454545;
+}
+.widget_categories li a::before, .widget_product_categories li a::before{
+    left:auto;
+    right:0;
+}
+.product-related .info-products,.quickview-box .quickview-body{
+    text-align:right;
+}
+.product-essential .social-icon ul,.product-essential .tags-list label, .product-essential .cat-list label{
+    float:right;
+}
+.product_meta{
+    clear:both;
+}
+
+.product-essential .add-to-cart,.product-essential .meta-box .price-box,.product-cart .cart .cart-table .row-item .name-item .attachment-shop_thumbnail,.product-cart .cart .cart-table .row-item .name-item .product-info,
+.woocommerce .order_details li{
+    float:right;
+}
+.cart_totals td,.cart_totals th{
+    padding: 5px 30px!important;
+}
+.woocommerce ul#shipping_method li{
+    text-indent: 0;
+}
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal,.product-check-out .checkout .checkout-row .title i{
+    float:left;
+}
+.woocommerce table.shop_table,.woocommerce-checkout #payment ul.payment_methods,.woocommerce-checkout #payment ul.payment_methods li{
+    text-align: right;
+}
+.woocommerce .addresses address, .woocommerce .order_details{
+    padding-right:0;
+}
+
+.quick-access .search-form .search-box{
+    right:auto;
+    left:25px;
+}
+.search-form .search-box::before{
+    right:auto;
+    left:10px;
+}
+.search-box .sub-search{
+    float:left;
+    right:auto;
+    left:0;
+    margin-right:0;
+    margin-left:25px;
+}
+.col-md-4.sport-box{
+    float:right;
+}
+.reviews-content .match-reviews h2, .reviews-content .match-reviews h3{
+    padding-left:0;
+    padding-right:30px;
+}
+.gallery .gallery-content{
+    margin-left:0;
+    margin-right:30px;
+}
+.menu-about ul li{
+    border-left:none;
+    border-right: 1px solid #2b2b2b;
+}
+a img.alignnone{
+    margin:5px 0px 20px 20px;
+}
+.about-details{
+    margin-left:0;
+    margin-right:100px;
+}
+.icon-block {
+    float: right;
+}
+
+
+
+.breadcrumbs ul::before{
+    left:auto;
+    right:0;
+    border-color: transparent #1b1b1b transparent transparent;
+}
+.navbar-nav{
+    float:right;
+    padding-right:0
+}
+.navbar-nav > li{
+    float:right;
+    text-align: right;
+}
+/** event on */
+.eventon_fullcal{
+    direction: ltr;
+}
+.eventon_fullcal .evo_fc_day,.ajde_evcal_calendar .calendar_header p,.evo_srt_sel{
+    float:right;
+}
+.time-table-main .next,.table-cell .next,.evo_sortby,.ajde_evcal_calendar .eventon_sort_line, .eventon_filter_line{
+    float:right;
+}
+.evo_sortby{
+    margin-left:10px;
+}
+.widget-area #evcal_widget #evcal_head .evcal_arrows,.widget-area #evcal_widget #evcal_head #evcal_prev{
+    left:0;
+    right:auto;
+}
+.ajde_evcal_calendar #evcal_prev{
+    margin-left:0;
+}
+#evcal_widget .ajde_evcal_calendar #evcal_next{
+    left:25px!important;
+}
+.time-table-main .next .icon-wrap,.table-cell .next .icon-wrap, .popular-title .next .icon-wrap,.popular-title .next{
+    float:left;
+}
+.timetable-top .box-content,.timetable-top .box-cell{
+    text-align: right;
+}
+.table-cell .next{
+     margin-right:33%;
+}
+
+.timetable-top .time-table-title{
+    left:auto;
+    right:20px;
+}
+
+.price-table-text{
+    left:auto;
+    right:0;
+}
+.price-table-text h2{
+    text-align: right;
+}
+.price-table-img{
+    left:0;
+}
+.masonry-lagar .price-table-text{
+    padding-right:35px;
+    padding-left:10px;
+}
+.fit-strong .wpb_column, .fit-strong .col-md-4{
+    float:right;
+}
+/* about us*/
+.headding-content{
+    padding-right:0;
+}
+.headding-content .cont-headding{
+    float:right;
+}
+.contact{
+    right:auto;
+    left:0;
+}
+.contact-submit .col-md-3{
+    float:left;
+}
+.news-cont .title-page{
+    text-align: right;
+}
+
+.widget_nav_menu ul li a::before, .widget_nav_menu ul li a::after{
+    right:0;
+}
+
+.widget_archive ul{
+    padding-right:0;
+}
+.widget_archive li a::before{
+    float:right;
+}
+
+
+.history-skill li{
+    float: right;
+}
+.history-skill li:before {
+    float:right;
+    margin-left:15px;
+    line-height:inherit;
+}
+.tab-history .our-team-panes .our-team-pane{
+    transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+}
+
+.tab-history .our-team-panes .our-team-pane.out {
+    transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+}
+
+
+.skill-percent{
+    float:left;
+}
+.experience-details-title i.fa{
+    left:auto;
+    right:0;
+    border-right:0;
+    border-left:3px solid #212121;
+    margin-right:0;
+    margin-left:10px;
+}
+.experience-content ul {
+    padding-right: 0;
+}
+.experience-details-title{
+    padding: 12px 62px 12px 0px
+}
+.img-profile1, .profile-icon{
+    float:right;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.profile-info, .profile-text{
+    float:right;
+}
+.profile-text{
+    padding-right:0;
+    padding-left:15px;
+}
+
+/* blog */
+.blog-main .img-blog{
+    float:right;
+    padding-right:23px;padding-left:0;
+}
+.blog-content{
+    margin-left:0;
+    margin-right: 142px;
+    padding-right: 0 !important;
+}
+.icon-blog{
+    padding-left:28px;
+}
+.content-wrapper blockquote{
+    background-position: top left;
+}
+.news-page .col-md-4, .news-page .col-md-8{
+    padding-right:0;
+    padding-left:15px;
+}
+.news-date{
+    float:right;
+}
+.news-info{
+    margin-left:0;
+    margin-right:80px;
+}
+.page-numbers{
+	padding-right:0;
+}
+#close-button{
+	left:0;
+	right:auto;
+}
+
+.share .social-icon{
+    float:left;
+    text-align: left;
+}
+.share-title{
+    float:right;
+}
+.btp-detail-voting .btp-rating-notice,.btp-detail-voting .btp-rating-background,.btp-detail-voting{
+    float:left;
+}
+.profile-content .social-icon {
+    text-align: left;
+}
+
+/**
+FOOTER STYLE
+*/
+#page-top .email .button{
+    margin: 0 -36px 0 0;
+}
+.social_icon a{
+    float:right;
+}
+.footer-store .footer-title h4::after{
+    left:auto;
+    right:0;
+}
+.footer-store ul{
+    padding-left:0;
+    padding-right:10px;
+}

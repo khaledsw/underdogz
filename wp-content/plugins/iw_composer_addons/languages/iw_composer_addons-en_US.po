@@ -1,0 +1,709 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: IW Visual Composer Addons\n"
+"POT-Creation-Date: 2015-06-25 16:55+0700\n"
+"PO-Revision-Date: 2015-06-25 16:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: iw_composer_addons.php:142
+msgid "Click to select new or search..."
+msgstr ""
+
+#: iw_composer_addons.php:147
+msgid "Input font Awesome name exclude 'fa-', Ex: desktop, diamond..."
+msgstr ""
+
+#: shortcodes/athlete_map.php:36
+msgid "Display a Google Map"
+msgstr ""
+
+#: shortcodes/athlete_map.php:44 shortcodes/athlete_map.php:70
+#: shortcodes/courses.php:43 shortcodes/courses_list.php:43
+#: shortcodes/ethlete_facts.php:52 shortcodes/events.php:45
+#: shortcodes/heading.php:29 shortcodes/history.php:61
+#: shortcodes/infor_banner.php:33 shortcodes/infor_list.php:75
+#: shortcodes/iw_contact.php:45 shortcodes/navigation.php:61
+#: shortcodes/opening_hours.php:60 shortcodes/opening_hours.php:102
+#: shortcodes/product_list.php:31 shortcodes/tabs.php:66
+#: shortcodes/wp_posts.php:51
+msgid "Title"
+msgstr ""
+
+#: shortcodes/athlete_map.php:47
+msgid "Title of map block."
+msgstr ""
+
+#: shortcodes/athlete_map.php:51
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/athlete_map.php:57
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/athlete_map.php:63
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/athlete_map.php:76 shortcodes/price_box.php:29
+msgid "Image"
+msgstr ""
+
+#: shortcodes/athlete_map.php:82
+msgid "Info"
+msgstr ""
+
+#: shortcodes/athlete_map.php:87 shortcodes/countdown.php:73
+#: shortcodes/courses.php:73 shortcodes/courses_list.php:79
+#: shortcodes/ethlete_facts.php:71 shortcodes/ethlete_facts.php:116
+#: shortcodes/events.php:134 shortcodes/faq.php:41 shortcodes/heading.php:58
+#: shortcodes/history.php:38 shortcodes/history.php:93
+#: shortcodes/infor_banner.php:84 shortcodes/infor_list.php:40
+#: shortcodes/infor_list.php:101 shortcodes/iw_contact.php:90
+#: shortcodes/layers_effect.php:70 shortcodes/layers_effect.php:120
+#: shortcodes/navigation.php:38 shortcodes/navigation.php:74
+#: shortcodes/opening_hours.php:79 shortcodes/opening_hours.php:115
+#: shortcodes/price_box.php:85 shortcodes/product_list.php:100
+#: shortcodes/tabs.php:38 shortcodes/tabs.php:85 shortcodes/wp_posts.php:115
+msgid "Extra Class"
+msgstr ""
+
+#: shortcodes/athlete_map.php:89 shortcodes/countdown.php:75
+#: shortcodes/courses.php:75 shortcodes/courses_list.php:81
+#: shortcodes/events.php:136 shortcodes/faq.php:43 shortcodes/heading.php:60
+#: shortcodes/infor_banner.php:86 shortcodes/iw_contact.php:92
+#: shortcodes/price_box.php:87 shortcodes/product_list.php:102
+#: shortcodes/wp_posts.php:117
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/countdown.php:26
+msgid "Schedule a countdown until a time in the future"
+msgstr ""
+
+#: shortcodes/countdown.php:34
+msgid "Time to end:"
+msgstr ""
+
+#: shortcodes/countdown.php:35
+msgid "Example: February 24, 2017 00:00:00"
+msgstr ""
+
+#: shortcodes/countdown.php:42
+msgid "Format day:"
+msgstr ""
+
+#: shortcodes/countdown.php:43
+msgid "Example: % Days"
+msgstr ""
+
+#: shortcodes/countdown.php:50
+msgid "Format hour:"
+msgstr ""
+
+#: shortcodes/countdown.php:51
+msgid "Example: % Hours"
+msgstr ""
+
+#: shortcodes/countdown.php:58
+msgid "Format minute:"
+msgstr ""
+
+#: shortcodes/countdown.php:59
+msgid "Example: % Mins"
+msgstr ""
+
+#: shortcodes/countdown.php:66
+msgid "Format second:"
+msgstr ""
+
+#: shortcodes/countdown.php:67
+msgid "Example: % Secs"
+msgstr ""
+
+#: shortcodes/courses.php:35
+msgid "Show latest courses"
+msgstr ""
+
+#: shortcodes/courses.php:46
+msgid "Title of courses block."
+msgstr ""
+
+#: shortcodes/courses.php:51 shortcodes/courses_list.php:51
+#: shortcodes/ethlete_facts.php:58 shortcodes/heading.php:36
+#: shortcodes/infor_banner.php:39 shortcodes/iw_contact.php:53
+#: shortcodes/opening_hours.php:66 shortcodes/tabs.php:72
+#: shortcodes/wp_posts.php:59
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/courses.php:54
+msgid "Sub Title of courses block."
+msgstr ""
+
+#: shortcodes/courses.php:59 shortcodes/courses_list.php:58
+#: shortcodes/events.php:60 shortcodes/wp_posts.php:66
+msgid "Description"
+msgstr ""
+
+#: shortcodes/courses.php:62
+msgid "Description of courses block."
+msgstr ""
+
+#: shortcodes/courses.php:66
+msgid "Number of Courses"
+msgstr ""
+
+#: shortcodes/courses.php:69
+msgid "Number of courses to display on list."
+msgstr ""
+
+#: shortcodes/courses_list.php:36
+msgid "Display a list of courses"
+msgstr ""
+
+#: shortcodes/courses_list.php:46
+msgid "Title of courses_list block."
+msgstr ""
+
+#: shortcodes/courses_list.php:53
+msgid "Sub Title of courses_list block."
+msgstr ""
+
+#: shortcodes/courses_list.php:60
+msgid "Description of courses_list block."
+msgstr ""
+
+#: shortcodes/courses_list.php:64 shortcodes/wp_posts.php:79
+msgid "Post Category"
+msgstr ""
+
+#: shortcodes/courses_list.php:68
+msgid "Category to get courses."
+msgstr ""
+
+#: shortcodes/courses_list.php:72
+msgid "Post per Page"
+msgstr ""
+
+#: shortcodes/courses_list.php:75
+msgid ""
+"Number of post to display on per page, then use this field to add a class "
+"name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:40
+msgid "Ethlete Facts"
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:44
+msgid "Add a set of list facts and give some custom style."
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:74 shortcodes/ethlete_facts.php:119
+#: shortcodes/history.php:41 shortcodes/history.php:96
+#: shortcodes/infor_list.php:43 shortcodes/infor_list.php:104
+#: shortcodes/layers_effect.php:73 shortcodes/layers_effect.php:123
+#: shortcodes/navigation.php:41 shortcodes/navigation.php:77
+#: shortcodes/opening_hours.php:82 shortcodes/opening_hours.php:118
+#: shortcodes/tabs.php:41 shortcodes/tabs.php:88
+msgid "Write your own CSS and mention the class name here."
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:82
+msgid "List Facts Item"
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:87 shortcodes/opening_hours.php:95
+msgid "Add a list of infor with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:94 shortcodes/infor_list.php:88
+msgid "Select Icon"
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:98
+msgid "Click and select icon of your choice."
+msgstr ""
+
+#: shortcodes/ethlete_facts.php:102
+msgid "Count Number"
+msgstr ""
+
+#: shortcodes/events.php:37
+msgid "Display a list of events"
+msgstr ""
+
+#: shortcodes/events.php:48
+msgid "Title of events block."
+msgstr ""
+
+#: shortcodes/events.php:53
+msgid "Sup Title"
+msgstr ""
+
+#: shortcodes/events.php:55
+msgid "Sub Title of events block."
+msgstr ""
+
+#: shortcodes/events.php:62
+msgid "Description of events block."
+msgstr ""
+
+#: shortcodes/events.php:66
+msgid "Number of month"
+msgstr ""
+
+#: shortcodes/events.php:69
+msgid "Number of month to get events."
+msgstr ""
+
+#: shortcodes/events.php:73
+msgid "Number of events"
+msgstr ""
+
+#: shortcodes/events.php:76
+msgid "Number of events to display on every month."
+msgstr ""
+
+#: shortcodes/events.php:80
+msgid "Month increment"
+msgstr ""
+
+#: shortcodes/events.php:86
+msgid "Fixed month"
+msgstr ""
+
+#: shortcodes/events.php:92
+msgid "Fixed year"
+msgstr ""
+
+#: shortcodes/events.php:98
+msgid "Event order"
+msgstr ""
+
+#: shortcodes/events.php:107
+msgid "First day of week"
+msgstr ""
+
+#: shortcodes/events.php:116
+msgid "Hide Past Events"
+msgstr ""
+
+#: shortcodes/events.php:125
+msgid "Show only featured events"
+msgstr ""
+
+#: shortcodes/events.php:141 shortcodes/wp_posts.php:122
+msgid "Style"
+msgstr ""
+
+#: shortcodes/events.php:481
+msgid "Read more"
+msgstr ""
+
+#: shortcodes/events.php:496
+msgid "No event"
+msgstr ""
+
+#: shortcodes/faq.php:21
+msgid "Frequently asked question"
+msgstr ""
+
+#: shortcodes/faq.php:29
+msgid "Question"
+msgstr ""
+
+#: shortcodes/faq.php:35
+msgid "Answer"
+msgstr ""
+
+#: shortcodes/heading.php:21
+msgid "Add a heading"
+msgstr ""
+
+#: shortcodes/heading.php:43
+msgid "Heading type"
+msgstr ""
+
+#: shortcodes/heading.php:54
+msgid "Select heading type."
+msgstr ""
+
+#: shortcodes/history.php:26
+msgid "History"
+msgstr ""
+
+#: shortcodes/history.php:30
+msgid "Add a set of history info and give some custom style."
+msgstr ""
+
+#: shortcodes/history.php:49
+msgid "History Item"
+msgstr ""
+
+#: shortcodes/history.php:54
+msgid "Add a item of history with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/history.php:68
+msgid "Time point"
+msgstr ""
+
+#: shortcodes/history.php:86
+msgid "Video/image embed code"
+msgstr ""
+
+#: shortcodes/infor_banner.php:20
+msgid "Add a banner & some information"
+msgstr ""
+
+#: shortcodes/infor_banner.php:27 shortcodes/opening_hours.php:54
+msgid "Banner Image"
+msgstr ""
+
+#: shortcodes/infor_banner.php:51
+msgid "Banner Size"
+msgstr ""
+
+#: shortcodes/infor_banner.php:53
+msgid "Enter image size. Example in pixels: 200x100 (Width x Height)"
+msgstr ""
+
+#: shortcodes/infor_banner.php:57
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/infor_banner.php:62 shortcodes/infor_list.php:95
+msgid "Link"
+msgstr ""
+
+#: shortcodes/infor_list.php:28
+msgid "Info List"
+msgstr ""
+
+#: shortcodes/infor_list.php:32
+msgid "Add a set of list info and give some custom style."
+msgstr ""
+
+#: shortcodes/infor_list.php:63
+msgid "Info Item"
+msgstr ""
+
+#: shortcodes/infor_list.php:68
+msgid "Add a list of info with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/iw_contact.php:37
+msgid "Show contact form"
+msgstr ""
+
+#: shortcodes/iw_contact.php:48
+msgid "Title of iw_contact block."
+msgstr ""
+
+#: shortcodes/iw_contact.php:56
+msgid "Sub Title of iw_contact block."
+msgstr ""
+
+#: shortcodes/iw_contact.php:60
+msgid "Show name"
+msgstr ""
+
+#: shortcodes/iw_contact.php:62
+msgid "Show field name on form"
+msgstr ""
+
+#: shortcodes/iw_contact.php:70
+msgid "Show email"
+msgstr ""
+
+#: shortcodes/iw_contact.php:72
+msgid "Show field email on form"
+msgstr ""
+
+#: shortcodes/iw_contact.php:80
+msgid "Show message"
+msgstr ""
+
+#: shortcodes/iw_contact.php:82
+msgid "Show field message on form"
+msgstr ""
+
+#: shortcodes/iw_contact.php:128
+msgid "Your Name"
+msgstr ""
+
+#: shortcodes/iw_contact.php:135
+msgid "Your Email"
+msgstr ""
+
+#: shortcodes/iw_contact.php:142
+msgid "Your Message"
+msgstr ""
+
+#: shortcodes/iw_contact.php:147
+msgid "Send Message"
+msgstr ""
+
+#: shortcodes/iw_contact.php:169
+msgid "Email from Contact"
+msgstr ""
+
+#: shortcodes/iw_contact.php:174
+msgid "Email recived from \"CONTACT\" form:"
+msgstr ""
+
+#: shortcodes/iw_contact.php:177
+msgid "Hi Admin,"
+msgstr ""
+
+#: shortcodes/iw_contact.php:178
+msgid "This email was sent from \"CONTACT\" form"
+msgstr ""
+
+#: shortcodes/iw_contact.php:181
+msgid "Name"
+msgstr ""
+
+#: shortcodes/iw_contact.php:185
+msgid "Email"
+msgstr ""
+
+#: shortcodes/iw_contact.php:189
+msgid "Message"
+msgstr ""
+
+#: shortcodes/iw_contact.php:201
+msgid "Your message was sent, we will contact you soon"
+msgstr ""
+
+#: shortcodes/iw_contact.php:203
+msgid "Can't send message, please try again"
+msgstr ""
+
+#: shortcodes/layers_effect.php:31
+msgid "Layers Effect"
+msgstr ""
+
+#: shortcodes/layers_effect.php:35
+msgid "Add a set of layers and give a scene parallax effect."
+msgstr ""
+
+#: shortcodes/layers_effect.php:42
+msgid "Position"
+msgstr ""
+
+#: shortcodes/layers_effect.php:44
+msgid "Choose position fix or absolute"
+msgstr ""
+
+#: shortcodes/layers_effect.php:53
+msgid "Z-Index"
+msgstr ""
+
+#: shortcodes/layers_effect.php:56
+msgid ""
+"Enter integer number number. (-1) value means that the Layers Effect is "
+"behind other objects"
+msgstr ""
+
+#: shortcodes/layers_effect.php:61
+msgid "Height"
+msgstr ""
+
+#: shortcodes/layers_effect.php:64
+msgid "Height in pixel. Example:500px. Default value is 100%"
+msgstr ""
+
+#: shortcodes/layers_effect.php:81
+msgid "Layer"
+msgstr ""
+
+#: shortcodes/layers_effect.php:86
+msgid ""
+"Add a list of layers_effect with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/layers_effect.php:92
+msgid "Layer Background"
+msgstr ""
+
+#: shortcodes/layers_effect.php:99
+msgid "Data Depth"
+msgstr ""
+
+#: shortcodes/layers_effect.php:102
+msgid ""
+"Depth of the layer. A depth of 0 will cause the layer to remain stationary, "
+"and a depth of 1 will cause the layer to move by the total effect of the "
+"calculated motion. Values inbetween 0 and 1 will cause the layer to move by "
+"an amount relative to the supplied ratio."
+msgstr ""
+
+#: shortcodes/layers_effect.php:107
+msgid "Opacity"
+msgstr ""
+
+#: shortcodes/layers_effect.php:110
+msgid "Opacity of the layer"
+msgstr ""
+
+#: shortcodes/navigation.php:26
+msgid "Navigation"
+msgstr ""
+
+#: shortcodes/navigation.php:30
+msgid "Add a menu and give some custom style."
+msgstr ""
+
+#: shortcodes/navigation.php:49
+msgid "Navigation Item"
+msgstr ""
+
+#: shortcodes/navigation.php:54
+msgid "Add a item for inwave navigation and give some custom style."
+msgstr ""
+
+#: shortcodes/opening_hours.php:43
+msgid "Opening Hours"
+msgstr ""
+
+#: shortcodes/opening_hours.php:47
+msgid "Add a set of list opening hours and give some custom style."
+msgstr ""
+
+#: shortcodes/opening_hours.php:90
+msgid "List Opening Item"
+msgstr ""
+
+#: shortcodes/price_box.php:21
+msgid "Add a price box & some information"
+msgstr ""
+
+#: shortcodes/price_box.php:35
+msgid "Package name/Title"
+msgstr ""
+
+#: shortcodes/price_box.php:41
+msgid "Package type/Sub Title"
+msgstr ""
+
+#: shortcodes/price_box.php:48
+msgid "Price"
+msgstr ""
+
+#: shortcodes/price_box.php:53
+msgid "Read more text"
+msgstr ""
+
+#: shortcodes/price_box.php:58
+msgid "Read more link"
+msgstr ""
+
+#: shortcodes/price_box.php:63
+msgid "Purchase text"
+msgstr ""
+
+#: shortcodes/price_box.php:68
+msgid "Purchase link"
+msgstr ""
+
+#: shortcodes/product_list.php:23
+msgid "Add list of products"
+msgstr ""
+
+#: shortcodes/product_list.php:83
+msgid "Number of products"
+msgstr ""
+
+#: shortcodes/product_list.php:262 shortcodes/wp_posts.php:37
+msgid "All"
+msgstr ""
+
+#: shortcodes/tabs.php:26
+msgid "Tabs"
+msgstr ""
+
+#: shortcodes/tabs.php:30
+msgid "Add a set of tabs and give some custom style."
+msgstr ""
+
+#: shortcodes/tabs.php:49
+msgid "Tab Item"
+msgstr ""
+
+#: shortcodes/tabs.php:54
+msgid "Add a list of tabs with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/tabs.php:60
+msgid "Tab Image"
+msgstr ""
+
+#: shortcodes/wp_posts.php:43
+msgid "Display a list of posts "
+msgstr ""
+
+#: shortcodes/wp_posts.php:54
+msgid "Title of wp_posts block."
+msgstr ""
+
+#: shortcodes/wp_posts.php:61
+msgid "Sub Title of wp_posts block."
+msgstr ""
+
+#: shortcodes/wp_posts.php:68
+msgid "Description of wp_posts block."
+msgstr ""
+
+#: shortcodes/wp_posts.php:72
+msgid "Post Ids"
+msgstr ""
+
+#: shortcodes/wp_posts.php:75
+msgid "Id of posts you want to get. Separated by commas."
+msgstr ""
+
+#: shortcodes/wp_posts.php:82
+msgid "Category to get posts."
+msgstr ""
+
+#: shortcodes/wp_posts.php:86
+msgid "Post number"
+msgstr ""
+
+#: shortcodes/wp_posts.php:89
+msgid "Number of posts to display on box."
+msgstr ""
+
+#: shortcodes/wp_posts.php:93
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/wp_posts.php:106
+msgid "Order Type"
+msgstr ""
+
+#: shortcodes/wp_posts.php:269
+msgid " by "
+msgstr ""
+
+#: shortcodes/wp_posts.php:269
+msgid " in "
+msgstr ""

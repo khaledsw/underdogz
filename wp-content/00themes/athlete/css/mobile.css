@@ -1,0 +1,23 @@
+/*
+@package Inwave Athlete
+@version 1.0.0
+@created Apr 1, 2015
+@author Inwavethemes
+@email inwavethemes@gmail.com
+@website http://inwavethemes.com
+@support Ticket https://inwave.ticksy.com/
+@copyright Copyright (c) 2015 Inwavethemes. All rights reserved.
+@license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+
+*/
+body #header, .slide-container.to-top {
+    position: relative !important;
+    margin-top: 0 !important;
+}
+
+.contents-main, .page-heading {
+    margin-top: 0 !important;
+}
+body .to-bottom {
+    display: none;
+}

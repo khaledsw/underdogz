@@ -1,0 +1,470 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2014, 1:33:49 PM
+    Author     : duongca
+*/
+
+/*----- Tabs -----*/
+#iwc .tabs {
+    width:100%;
+    display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+#iwc .tab-links:after {
+    display:block;
+    clear:both;
+    content:'';
+}
+
+#iwc .tab-links li {
+    margin:0px 5px;
+    float:left;
+    list-style:none;
+}
+
+#iwc .tab-links a {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:3px 3px 0px 0px;
+    background:#7FB5DA;
+    font-size:16px;
+    font-weight:600;
+    color:#4c4c4c;
+    transition:all linear 0.15s;
+}
+
+#iwc .tab-links a:hover {
+    background:#a7cce5;
+    text-decoration:none;
+}
+
+#iwc li.active a, #iwc li.active a:hover {
+    background:#fff;
+    color:#4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+#iwc .tab-content {
+    padding:15px;
+    border-radius:3px;
+    box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+    background:#fff;
+}
+
+#iwc .tab {
+    display:none;
+}
+
+#iwc .tab.active {
+    display:block;
+}
+
+/*Message*/
+#iwc .bt-message {
+    border: 1px solid;
+    border-left: solid 4px;
+    margin: 15px 0px !important;
+    padding: 10px !important;
+}
+#iwc .bt-message .message-text{
+    margin-left: 35px;
+}
+
+#iwc .bt-message.success {
+    border-color: #1e6a8d;
+    background: url('../images/success.png') no-repeat 10px center #a7cce5;
+}
+#iwc .bt-message.error {
+    border-color: #dd3d36;
+    background: url('../images/error.png') no-repeat 10px center #F2DEDE;
+}
+#iwc .bt-message.notice {
+    border-color: #c0cd7b;
+    background: url('../images/notice.png') no-repeat 10px center #fff9c0;
+}
+
+/*End message style*/
+
+/*Start form style*/
+#iwc h3.header-text{
+    text-transform: uppercase;
+}
+
+#iwc .control-group {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#iwc .control-group .label {
+    float: left;
+    font-weight: bold;
+    max-width: 300px;
+    min-width: 200px;
+    width: 30%;
+}
+
+.control-group .control {
+    float: left;
+    min-width: 300px;
+    width: 70%;
+}
+
+#iwc .control-group select, #iwc .control-group input{
+    min-width: 200px;
+}
+
+
+/*FE*/
+#iwc .bt-courses-filterable-filter {
+    color: #FFF;
+}
+#iwc .bt-courses-filterable-filter ul {
+    padding: 0;
+    margin: 0 !important;
+    display: inline;
+}
+#iwc .bt-courses-filterable-filter li {
+    cursor: pointer;
+    display: table-cell;
+    padding: 10px 15px;
+    background-color: rgba(0,0,0,0.9);
+}
+#iwc .bt-courses-filterable-filter li.active {
+    background: #259b9a !important;
+}
+
+#bt-courses-filterable-grid{
+    position: relative;
+}
+#bt-courses-filterable-grid .mix{
+    display: none;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+}
+
+#iwc ul.bt-courses-gallery-thumbnail li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+#iwc .iw_courses .box_skitter .label_skitter {
+    background: none repeat scroll 0 0 transparent !important;
+    display: none;
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    z-index: 101 !important;
+}
+
+#iwc .iw_courses .box_skitter .label_skitter:hover{
+    display: block !important;
+}
+
+#iwc .btp-grid-item {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#iwc .p-filter input, #iwc .p-filter textarea, #iwc .p-filter select {
+    padding: 0.7em;
+    background: #fff;
+    border: 1px solid #ddd;
+    font-size: 1.0em;
+    color: #333;
+    font-family: 'Droid Sans', Tahoma, Verdana, Arial;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#iwc .p-filter input.p-first-input{
+    margin-left: 0;
+}
+
+.iwc-metabox-fields table {
+    background-color: #f9f9f9;
+    border: 1px solid #dfdfdf;
+    border-spacing: 0;
+    margin: 0;
+    width: 100%;
+}
+.iwc-metabox-fields tr {
+    vertical-align: top;
+}
+
+.iwc-metabox-fields thead th {
+    background-color: #f1f1f1;
+    padding: 5px 8px 8px;
+}
+
+.iwc-metabox-fields tbody .alternate td {
+    text-align: center;
+}
+
+.iwc-metabox-fields .the-list tr:last-child td, .iwc-metabox-fields .the-list tr:last-child th {
+    border-bottom: medium none !important;
+    box-shadow: none;
+}
+
+.iwc-metabox-fields td input, .iwc-metabox-fields td textarea, .iwc-metabox-fields td span.remove-button{
+    width: 100%;
+}
+.iwc-metabox-fields .list-image-gallery .iw-image-item{
+    float: left;
+    margin: 0 10px 10px 0;
+    position: relative;
+    width: 23%;
+    min-width: 150px;
+    max-height: 130px;
+    overflow: hidden;
+    background: #333;
+}
+.iwc-metabox-fields .list-image-gallery .iw-image-item img{
+    width: 100%;
+    
+}
+
+.iwc-metabox-fields .list-image-gallery .action-overlay {
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.iwc-metabox-fields .list-image-gallery .action-overlay:hover {
+    opacity: 1;
+}
+
+.iwc-metabox-fields .list-image-gallery .remove-image{
+    background: none repeat scroll 0 0 #fff;
+    cursor: pointer;
+    padding: 0 6px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+.iwc-metabox-fields .list-image-gallery .remove-image:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.iwc-metabox-fields .ajax-loading {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    right: 0;
+}
+.iwc-metabox-fields .iw-courses-list {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.iwc-metabox-fields .iw-courses-list > ul {
+    background: none repeat scroll 0 0 #828282;
+    margin: 0;
+}
+
+.iwc-metabox-fields .iw-courses-list li {
+    border-bottom: 1px dotted;
+    margin: 0;
+    padding: 5px 10px;
+}
+.iwc-metabox-fields .iw-courses-list li.selected {
+    background: #BCBCBC;
+}
+
+.iwc-metabox-fields .iw-ajax-loading {
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    display: none;
+    top: 3px;
+    visibility: visible;
+    width: 25px;
+    z-index: 100;
+    background: url('../images/ajax-loader.gif') center center no-repeat;
+}
+
+#classes.teachers, #classes.teachers .our-class-main{
+    padding-top: 0;
+}
+
+.btp-detail-voting{
+    display: inline-block;
+    float: right;
+    text-align: right;
+    width: 50%
+}
+
+.btp-detail-voting .btp-rating-background:before {
+    font-family: star;
+    content: "sssss";
+}
+.btp-detail-voting .btp-rating-background {
+    float: right;
+    height: 20px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 63px;
+    position: relative;
+}
+
+.btp-detail-voting .btp-rating-notice{
+    float: right;
+    margin-left: 3px;
+    line-height: 28px;
+}
+
+.btp-rating-background span:before {
+    top: 0;
+    font-family: star;
+    content: "SSSSSS";
+}
+.btp-rating-background span{
+    position: absolute;
+    color: transparent;
+    left: 0;
+    overflow: hidden;
+    cursor:pointer;
+    top: 0;
+}
+.btp-rating-background span:hover {
+    color: #fff;
+}
+.btp-rating-current:before {
+    font-family: star;
+    content: "SSSSS";
+}
+.btp-rating-current {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+
+.img-trainer > img {
+    border-radius: 50%;
+    height: 91px;
+    width: 93px;
+}
+
+.class-detail .class-info .course{
+    cursor: pointer;
+    color: #ec3642;
+}
+.class-detail .class-info .course:hover{
+    color: #fff;
+}
+
+#take-this-courses{
+    background: #212121;
+    color: #fff;
+    padding: 13px 20px;
+}
+#take-this-courses .take-header{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#take-this-courses .take-left, #take-this-courses .take-right{
+    float: left;
+    width: 50%;
+}
+#take-this-courses .take-left{
+    text-align: left;
+    position: relative;
+}
+#take-this-courses .take-right{
+    text-align: right;
+}
+#take-this-courses .take-right input{
+    width: 100%;
+    background: #F42F46;
+}
+#take-this-courses input{
+    background: none repeat scroll 0 0 #232323;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 93%;
+}
+#take-this-courses input.disabled{
+    background:#2C2C2C;
+    color: #585858;
+}
+#take-this-courses textarea{
+    background: none repeat scroll 0 0 #232323;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0;
+    padding: 6px;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 150px;
+}
+
+.take-left span {
+    position: absolute;
+    right: 32px;
+    top: 7px;
+}
+
+#take-this-courses .take-header .title{
+    float: left;
+    width: 80%;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+}
+#take-this-courses .take-header .take-close{
+    float: right;
+    width: 31px;
+    background: #F42F46;
+    height: 31px;
+    border: none;
+    font-size: 16px;
+}
+#take-this-courses .take-message{
+    background: none repeat scroll 0 0 #2c2c2c;
+    margin-bottom: 15px;
+    text-align: left;
+}
+#take-this-courses .take-message .list-message{
+   margin: 0;
+}
+#take-this-courses .take-message.take-success{
+    color: #3399FF;
+}
+#take-this-courses .take-message.take-error{
+    color: #F65327;
+}
+#take-this-courses .take-message.take-notice{
+    color: orange;
+}
+#take-this-courses .ajax-overlay {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: none;
+}
+#take-this-courses .ajax-send-loading {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+

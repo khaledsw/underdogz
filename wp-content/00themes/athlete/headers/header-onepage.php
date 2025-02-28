@@ -1,0 +1,29 @@
+<?php
+/***
+ * HEADER STYLE: ONEPAGE
+ */
+
+$athlete_cfg['theme-menu']= 'onepage';
+?>
+<body id="page-top" <?php body_class(); ?> data-offset="90" data-target=".navigation" data-spy="scroll">
+<div id="home"></div>
+<div class="wrapper hide-main-content">
+    <section class="page one-page <?php echo esc_attr($athlete_cfg['page-classes']);?>">
+        <?php include(get_template_directory() . '/blocks/menu-mobile.php'); ?>
+        <div class="content-wrapper">
+<!--Header-->
+<header id="header" class="header header-container reveal  navbar-custom navbar-nav navbar-fixed-top <?php if($athlete_cfg['page-classes']!= 'boxing-page') echo 'alt' ?>">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-3 col-xs-3 logo">
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url($smof_data['logo']) ?>" alt="Logo"/></a>
+            </div>
+            <div class="col-md-9 nav-container">
+                <?php include(get_template_directory() . '/blocks/menu-desktop.php'); ?>
+            </div>
+            <?php include(get_template_directory() . '/blocks/quick-access.php'); ?>
+            <button class="menu-button" id="open-button"></button>
+        </div>
+    </div>
+</header>
+<!--End Header-->

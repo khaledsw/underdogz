@@ -1,0 +1,714 @@
+/**
+ * Style for front end page
+ *
+ * @author gmswebdesign
+ * @package AP Background
+ * @version 1.1.0
+ */
+
+.parallax-block.bt-advance-parallax {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-block .open-btn {
+    border: 2px solid #fff;
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    margin-top: 5px;
+    padding: 6px 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.parallax-block  h2 {
+    font-size: 36px;
+}
+.parallax-block  h3, .parallax-block  h2 {
+    color: #fff;
+    margin: 0;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+}
+
+.parallax-block h3 {
+    font-size: 18px;
+}
+
+.parallax-block-content {
+    padding: 100px;
+	font-size: 13px;
+}
+
+.parallax-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+	background:#111111;
+}
+.parallax-background img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    max-width: none;
+    max-height: none;
+}
+.parallax-background-overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.parallax-block-content {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.parallax-block .button{
+    border: solid  1px #FFF;
+    background: transparent;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.parallax-block .button:hover{
+    border-width: 2px;
+}
+
+.parallax-background .video-embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    /*top: -50%;*/
+    width: 100%;
+}
+
+.parallax-background .video-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    /*padding-top: 30px;*/ 
+    height: 0; overflow: hidden;
+}
+
+.parallax-background .video-wrap video,
+.parallax-background .video-wrap iframe,
+.parallax-background .video-wrap object,
+.parallax-background .video-wrap embed {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+.bt-advance-parallax .hidden{
+    display: none !important;
+    visibility: hidden;
+}
+
+.bt-advance-parallax .parallax-col{
+    box-sizing: content-box;
+    float: left;
+}
+
+.wp-post .parallax-row, .woo-product .parallax-row{
+    background: #fff;
+}
+.woo-product .parallax-row{
+    background: #727272;
+}
+
+.bt-advance-parallax .parallax-content-in {
+    position: relative;
+    /*top: 0;*/
+    width: 100%;
+    /*height: 100%;*/
+    /*transform: translate(0px, -50%);*/
+}
+
+.default .parallax-row .thumb{
+    position: relative;
+}
+.default .parallax-row .thumb img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.bt-advance-parallax .content-show-large {
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    position: fixed;
+    text-align:center;
+    top: 0;
+    left: 0;
+}
+.bt-advance-parallax .content-show-large .item-contain {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+.bt-advance-parallax .content-show-large .video-inner {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.item-contain video, .item-contain iframe {
+    height: 100%;
+    width: 100%;
+}
+.content-show-large .item-contain img{
+    left: 50%;
+    margin: 0 -50% 0 0;
+    max-height: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.control-button .button-wrap, .control-button .nav-wrap {
+    position: relative;
+    z-index: 4;
+}
+
+.bt-advance-parallax .nav-wrap-in {
+    height: 85px;
+    opacity: 0.3;
+    position: fixed;
+    transition: opacity 0.3s ease-out 0s;
+    -webkit-transition: opacity 0.3s ease-out 0s;
+    width: 50px;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.bt-advance-parallax .nav-wrap-in.next{
+    right: 0;
+}
+.nav-wrap-in.next.has-scroll{
+    right: 17px;
+}
+.bt-advance-parallax .nav-wrap-in.prev{
+    left: 0;
+}
+
+.bt-advance-parallax .nav-wrap-in:hover{
+    opacity: 0.7;
+}
+
+.bt-advance-parallax .nav-prev, .bt-advance-parallax .nav-next{
+    position: absolute;
+    z-index: 45;
+    top: 50%;
+    width: 50px;
+    height: 85px;
+    margin-top: -42.5px;
+    cursor: pointer;
+    text-indent: -999999px;
+}
+
+.bt-advance-parallax .nav-prev{
+    background: url(../images/prev-white.png) center no-repeat #000;
+}
+.bt-advance-parallax .nav-next{
+    background: url(../images/next-white.png) center no-repeat #000;
+}
+
+.bt-advance-parallax .nav-prev.prev-video{
+    background: url(../images/prev-black.png) center no-repeat #fff;
+}
+.bt-advance-parallax .nav-next.next-video{
+    background: url(../images/next-black.png) center no-repeat #fff;
+}
+
+.bt-advance-parallax .nav-next{
+    right: 0;
+}
+.bt-advance-parallax .nav-prev{
+    left: 0;
+}
+.bt-advance-parallax .button-wrap .close-btn {
+    background: url("../images/close-btn.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: 30px;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    width: 30px;
+    opacity: 0.8;
+}
+
+.bt-advance-parallax .button-wrap .close-btn.has-scroll{
+    right: 37px;
+}
+
+.bt-advance-parallax .button-wrap .close-btn:hover {
+    opacity: 1;
+}
+
+
+.bt-advance-parallax .parallax-content-wrap {
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bt-advance-parallax .parallax-content {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+.bt-advance-parallax .parallax-content.min-height {
+    top: 50%;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.bt-advance-parallax .parallax-content.max-height {
+    padding: 20px 0;
+}
+
+/********************************
+Wordpress post
+********************************/
+/*Layout 1*/
+.wp-post .feature-image{
+    width: 100%;
+    height: 150px;
+}
+
+.wp-post .feature-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.post-content-info{
+    padding: 10px;
+}
+.post-content-info .title{
+    margin: 0;
+}
+
+.post-content-info .line{
+    border-color: -moz-use-text-color -moz-use-text-color #cecece;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    float: left;
+    width: 20%;
+}
+.bt-advance-parallax .link a{
+    color: #09a9e7!important;
+}
+
+.bt-advance-parallax .icon.suffix{
+    margin-left: 10px;
+}
+
+.layout1 .title{
+    font-size: 16px;
+}
+.layout1 .post-info, .layout1 .post-content{
+    font-size: 14px;
+}
+
+.layout1 .link.readmore{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*Layout2*/
+.layout2 .parallax-row .feature-image{
+    float: left;
+}
+
+.layout2 .post-content-info{
+    float: left;
+}
+
+.parallax-content-in .parallax-row, .parallax-content-in .parallax-row h3{
+    color: #747474!important;
+}
+
+.parallax-content-in .parallax-row{
+    overflow: hidden;
+}
+
+.layout2 .post-info{
+    color: #9a9999;
+    font-size: 12px;
+}
+.layout2 h3.title{
+    font-size: 18px;
+    color: #e26228!important;
+}
+.layout2 .post-content{
+    font-size: 14px;
+}
+.layout2 .link.readmore a{
+    font-size: 14px;
+    color: #e26228 !important;
+    font-weight: bold;
+}
+
+/*Woo commerce*/
+.woo-product .feature-image{
+    height: 75%;
+    width: 100%;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+.woo-product .feature-image img.wp-post-image{
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.woo-product .post-content-info {
+    margin-top: 3px;
+    background: #fff;
+    height: 20%;
+    padding: 16px 10px;
+}
+.woo-product .left-info {
+    float: left;
+    width: 80%;
+}
+.woo-product .right-info {
+    float: right;
+    width: 20%;
+    text-align: right;
+}
+.woo-product .price {
+    background: none repeat scroll 0 0 #888;
+    border-radius: 50%;
+    font-weight: bold;
+    height: 40px;
+    line-height: 39px;
+    text-align: center;
+    width: 40px;
+    margin-top: -1px;
+}
+.woo-product .price span{
+    color: #fff;
+}
+
+.bt-advance-parallax .product-overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+    opacity: 0;
+    -webkit-transition-duration: 0s;
+    z-index: 10;
+}
+.product-overlay:hover {
+    opacity: 1;
+}
+
+.bt-advance-parallax .product-action {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.bt-advance-parallax .product-action span {
+    background: none repeat scroll 0 0 #1e1e1e;
+    border-radius: 3px;
+    padding: 8px 13px;
+    color: #ffffff;
+    float: left;
+    cursor: pointer;
+}
+.product-action span.last {
+    margin-left: 2px;
+}
+.product-action span:hover{
+    background: none repeat scroll 0 0 #ffffff;
+    color: #757575;
+}
+
+.product-overlay .ajax-content {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.bt-advance-parallax .ajax-content .loadding, .bt-advance-parallax .ajax-content .text{
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: #FFF;
+    padding: 25px;
+    white-space: nowrap;
+}
+.bt-advance-parallax .ajax-content .loadding img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.woo-product .layout2 .feature-image{
+    width: 40%;
+    float: left;
+    position: relative;
+    height: 100%;
+}
+.woo-product .layout2 .feature-image img {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    max-height: 100%;
+}
+
+.woo-product .layout2 .post-content-info:before {
+    border-color: transparent #ffffff transparent transparent;
+    border-style: solid;
+    border-width: 15px;
+    content: "";
+    left: -30px;
+    position: absolute;
+    top: 20px;
+}
+
+.woo-product .layout2 .post-content-info{
+    float: left;
+    padding: 15px 10px 15px 29px;
+    width: 53%;
+    height: auto;
+    position: relative;
+}
+
+.woo-product .layout2 .parallax-row{
+    background: #fff;
+    position: relative;
+}
+
+.woo-product .layout2 .post-info span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #9a9999;
+}
+
+.woo-product h3.title{
+    color: #e26228;
+    text-transform: uppercase;
+}
+
+.woo-product .layout2 .post-content{
+    margin-top: 15px;
+}
+
+.woo-product .layout2 .product-options{
+    border-color: #e0e0e0;
+    border-style: solid;
+    border-width: 1px 0;
+    margin-right: 10px;
+    margin-top: 15px;
+    padding: 5px 0;
+}
+.woo-product .layout2 .cart-price{
+    margin: 15px 10px 0 0;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+}
+.woo-product .layout2 .cart-price .price{
+    background: #fff;
+    color: #e26228;
+    float: left;
+    font-size: 25px;
+    width: auto;
+}
+.woo-product .layout2 .cart-price .price span{
+    color: #e26228;
+}
+.woo-product .layout2 .cart-price .cart{
+    float: right;
+    line-height: 3;
+    position: relative;
+}
+.woo-product .layout2 .cart-price .cart .loading{
+    display: none;
+}
+.woo-product .layout2 .cart-price .cart .loading img{
+    transform: translateY(25%);
+    -webkit-transform: translateY(25%);
+    -ms-transform: translateY(25%);
+}
+.woo-product .layout2 .cart-price .cart span.addcart,
+.woo-product .layout2 .cart-price .cart span.viewproduct,
+.woo-product .layout2 .cart-price .cart span.wishlist,
+.woo-product .layout2 .cart-price .cart span.view-wishlist{
+    background: none repeat scroll 0 0 #404040;
+    padding: 8px 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.woo-product .layout2 .cart-price .cart span.addcart:hover,
+.woo-product .layout2 .cart-price .cart span.viewproduct:hover,
+.woo-product .layout2 .cart-price .cart span.wishlist:hover,
+.woo-product .layout2 .cart-price .cart span.view-wishlist:hover{
+    color: #e26228;
+}
+
+.bt-advance-parallax .woo-product .sale {
+    margin-right: -2px;
+    margin-top: -2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+
+.bt-advance-parallax .nodata {
+    background: none repeat scroll 0 0 #fff;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.bt-advance-parallax .nodata .title {
+    border-bottom: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    font-weight: bold;
+    padding: 0 0 5px;
+    position: relative;
+    text-transform: uppercase;
+}
+.bt-advance-parallax .nodata .msg-content {
+    margin-top: 15px;
+}
+
+.bt-advance-parallax .card-success{
+    color:#e26228;
+    display: none;
+}
+
+.bt-advance-parallax .overlay-loading {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+    display: none;
+}
+
+.bt-advance-parallax .overlay-loading .loading {
+    background: none repeat scroll 0 0 transparent;
+    left: 50%;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.bt-advance-parallax .widget-title {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bt-advance-parallax .widget-title .line{
+    width: 150px;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #fff;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.bt-advance-parallax .image-gallery .parallax-row{
+    cursor: pointer;
+}
+
+/*Image flexible layout css*/
+
+.flexible, .flexible .parallax-col{
+    position: relative;
+    height: 100%;
+}
+
+.flexible .parallax-row{
+    position: absolute;
+}
+.flexible .parallax-row .thumb img{
+    max-width: none;
+    max-height: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
